@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     padding: 0;
     margin: 0;
 
     font-family: figtree;
+}
+svg{
+    display: block;
+    margin: auto;
+}
+.dot{
+    stroke:#000;
+}
+#tooltip{
+    display: none;
+
+    padding: 0 1rem;
+
+    position: absolute;
+
+    background-color: #d0d0ff;
+
+    border-radius: 1rem;
 }
